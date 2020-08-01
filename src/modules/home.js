@@ -1,11 +1,12 @@
 const homePage = () => {
     let container = document.getElementById("content");
-    let banner = document.createElement("img");
-    banner.setAttribute("src", "./restaurant_4.jpg");
-    container.appendChild(banner);
+    container.innerHTML = "";
     let title = document.createElement("h1");
     title.innerHTML = "Restaurant La Vie";
     container.appendChild(title);
+    let paragraph = document.createElement("p");
+    paragraph.innerHTML = "Welcome to our website! Our restaurant serves the best traditional food! <br> We are located in the heart of Amsterdam. Please come visit us!";
+    container.appendChild(paragraph);
     let address = document.createElement("table");
     address.setAttribute("id", "address");
     container.appendChild(address);
