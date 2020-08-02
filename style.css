@@ -105,6 +105,16 @@ button:active {
     border: 3px solid lightgray;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 table {
     background-color: white;
     border-radius: 50px;
