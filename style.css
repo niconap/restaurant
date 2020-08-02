@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap');
+
 * {
-    font-family: Arial;
+    font-family: Montserrat Alternates, sans-serif;
+}
+
+#map {
+    border-radius: 30px;
+    margin-top: 20px;
 }
 
 #nav {
@@ -12,7 +20,38 @@
     align-items: center;
     background: url('./restaurant_4.jpg');
     height: 700px;
-    width: 1600px
+    width: 1600px;
+    border-radius: 30px;
+}
+
+#textinput {
+    margin: 5px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 3px solid black;
+    font-weight: 600;
+    outline: none;
+    width: 90%;
+}
+
+#buttoncell {
+    text-align: center;
+}
+
+#textarea {
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    outline: none;
+    border: 1px solid lightgray;
+    border: 3px solid black;
+    font-weight: 600;
+    border-radius: 10px;
+    max-height: 300px;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 3px;
 }
 
 #address {
@@ -21,19 +60,80 @@
     text-align: left;
 }
 
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: left;
+}
+
+p {
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+button {
+    font-weight: 600;
+    background: none;
+    padding: 10px;
+    border-radius: 50px;
+    border: solid 3px black;
+    transition: background 0.3s ease;
+    transition: color 0.3s ease;
+    outline: none;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background: lightgray;
+    border: 3px solid lightgray;
+}
+
+table {
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
 h1 {
-    top: 0xp;
+    top: 0px;
+    background: white;
+}
+
+ul {
+    display: inline;
+    text-align: left;
 }
 
 li {
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
+    display: inline;
+    padding: 10px;
     text-align: center;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    transition: background 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    font-size: 20px;
 }
 
 li:hover {
-    color: blue;
+    color: #2a9df4;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 40px 0px rgba(171,171,171,0.5);
+}
+
+li:active {
+    color: lightblue;
 }
