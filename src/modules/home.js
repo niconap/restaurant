@@ -5,7 +5,7 @@ const homePage = () => {
     title.innerHTML = "Restaurant La Vie";
     container.appendChild(title);
     let paragraph = document.createElement("p");
-    paragraph.innerHTML = "Welcome to our website! Our restaurant serves the best traditional food! <br> We are located in the heart of Amsterdam. Please come visit us!";
+    paragraph.innerHTML = "Welcome to our website! Our restaurant serves the best traditional food! <br> We are located in the heart of Amsterdam. Please come visit us! <br> <br> On this website you can see our location, explore <br> our menu and get into contact with us!";
     container.appendChild(paragraph);
     let address = document.createElement("table");
     address.setAttribute("id", "address");
@@ -20,6 +20,10 @@ const homePage = () => {
     cell3.innerHTML = "Amsterdam, Netherlands"
     let cell4 = row2.insertCell();
     cell4.innerHTML = "1011 TT, Rapenburg"
+    let map = document.createElement("img");
+    map.setAttribute("src", "./map.png");
+    map.setAttribute("id", "map");
+    container.appendChild(map);
 }
 
 export default homePage
