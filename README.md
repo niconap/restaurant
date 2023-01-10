@@ -1,6 +1,6 @@
 # Restaurant page
 
-To view the live version of this project, click [here](https://niconap.github.io/restaurant/).
+To view the live version of this project, click [here](https://restaurant.niconap.dev/).
 
 ## What is it?
 This project is a website for a nonexistant restaurant that uses JavaScript to switch between pages. In total there are three pages: Home, Menu and Contact, with each of them being rendered using JavaScript. This project is part of The Odin Project's curriculum, the project description can be found [here](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page).
